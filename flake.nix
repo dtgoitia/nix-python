@@ -19,7 +19,7 @@
     in
     {
       devShells.${system}.default = pkgs.mkShell {
-        buildInputs = [
+        packages = [
           myPython
         ];
         shellHook = ''
